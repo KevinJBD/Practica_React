@@ -1,0 +1,19 @@
+import React from 'react'
+
+const Ejercicio01 = () => {
+    return (
+    <div className='row mt-4'>
+        <div className="col-12">
+            <h2 className='h4 mt-4'>
+                Ejercicio - Crear Componente
+            </h2>
+            <hr />
+            <span className="d-block text-center bg-primary text-white p-4">
+                Este es un Componete
+            </span>
+        </div>
+    </div>
+    )
+}
+
+export default Ejercicio01
