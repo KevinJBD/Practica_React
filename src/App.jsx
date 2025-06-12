@@ -2,6 +2,8 @@ import Ejercicio01 from './components/Ejercicio01.jsx'
 import BotonGeneral from './components/utils/BotonGeneral.jsx'
 import ContenedorBotones from './components/utils/ContenedorBotones.jsx'
 import Ejercicio02 from './components/Ejercicio02.jsx';
+import { Ejercicio03 } from './components/utils/Ejercicio03.jsx';
+import { EjercicioUseState001 } from './components/Ejercicios002/EjercicioUseState001.jsx';
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
       <BotonGeneral />
       <ContenedorBotones />
       <Ejercicio02 />
-      
+      <Ejercicio03 />
+      {/**Ejercicio 003 UseState */}
+      <EjercicioUseState001 />
     </>
   )
 }
